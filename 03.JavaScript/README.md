@@ -89,16 +89,16 @@
   - [x] `some()` and `every()`
   - [ ] `reduce()`; (skip)
 - [x] Destructuring
-- [ ] Spread syntax
+- [x] Spread syntax
 - [x] Rest syntax
 - [ ] Optional chaining
 - [ ] Nullish coalescing (`??`)
 - [x] `Object.keys()` and `Object.values()`
 - [x] `Object.entries()`
-- [ ] Primitive values and object references (important)
-  - [ ] Argument passing; JavaScript passes values, including reference values
-  - [ ] Shallow copies; spread does not copy nested objects (important)
-  - [ ] Deep-copy techniques (skip)
+- [x] Primitive values and object references (important)
+  - [x] Argument passing; JavaScript passes values, including reference values
+  - [x] Shallow copies; spread does not copy nested objects (important)
+  - [x] Deep-copy techniques (structuredClone)
 
 ## 7. DOM Basics
 
@@ -117,17 +117,17 @@
 
 ## 8. Events and Forms
 
-- [ ] `addEventListener()`
+- [x] `addEventListener()`
   - [x] Click events
-  - [ ] Event object and `event.target` (important)
-  - [ ] Input and change events
-  - [ ] Keyboard events
-  - [ ] Exhaustive mouse-event coverage (skip)
-- [ ] Form submit events
+  - [x] Event object and `event.target` (important)
+  - [x] Input and change events
+  - [x] Keyboard events
+  - [x] Exhaustive mouse-event coverage (skip)
+- [x] Form submit events
   - [x] `preventDefault()`
   - [ ] reset and focus
 - [x] Form handling and validation (important)
-- [ ] Event bubbling
+- [x] Event bubbling
   - [ ] Event delegation; use a dynamic delete button
 - [x] Counter exercise
 - [ ] Form validation exercise
@@ -194,8 +194,8 @@
 
 ## 13. Modules and Essential Tooling
 
-- [ ] ES modules: `import` and `export`
-  - [ ] Named and default exports
+- [x] ES modules: `import` and `export`
+  - [x] Named and default exports
   - [ ] Browser module scripts; run through a local development server
 - [ ] Node.js as a tool runtime
 - [ ] npm
