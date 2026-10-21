@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script>
+      const supabaseClient = supabase.createClient(
+        "https://chyqrsvwiqzqveiljmcz.supabase.co",
+        "sb_publishable_4h_kj-vxFPHiQbFrHzJ0aw_JNtsQFC6",
+      );
+
+      async function checkUser() {
+        const response = await supabaseClient.auth.getUser();
+
+        if (response.data.user) {
+          window.location.href = "./pages/profile.html";
+        } else {
+          window.location.href = "./pages/login.html";
+        }
+      }
+      checkUser();
+    </script>
+  </body>
+</html>
