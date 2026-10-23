@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Add Student</h1>
+
+    <form onsubmit="addStudent(event)">
+      <input
+        type="text"
+        name="student"
+        id="student-name"
+        placeholder="student name"
+      />
+
+      <input
+        type="file"
+        accept="image/*"
+        name="student-image"
+        id="student-image"
+      />
+      <button>Add Student</button>
+    </form>
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="./add-student.js"></script>
+  </body>
+</html>
